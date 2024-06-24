@@ -1,0 +1,1 @@
+export const apiKey = "asdasd2asdasd@asd123"
