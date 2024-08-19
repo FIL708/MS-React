@@ -1,5 +1,6 @@
 import getRandomInt from '../../utils/getRandomInt';
 import headerImg from '../../assets/react-core-concepts.png';
+import './Header.css';
 
 function Header() {
     const descList = ['Fundamental', 'Crucial', 'Core'];
