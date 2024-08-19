@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import TabButton from '../TabButton/TabButton';
+import Section from '../Section/Section';
 import { EXAMPLES } from '../../data';
 
 function Menu() {
     const [content, setContent] = useState(null);
     const clickHandler = (selectedButton) => setContent(selectedButton);
     return (
-        <section id='examples'>
-            <h2>Exmaples</h2>
+        <Section id='examples' title='Examples'>
             <menu>
                 <TabButton
                     isSelected={content === 'components'}
@@ -47,7 +47,7 @@ function Menu() {
                     <p>Please select a topic</p>
                 )}
             </div>
-        </section>
+        </Section>
     );
 }
 
