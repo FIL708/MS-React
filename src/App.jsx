@@ -1,7 +1,7 @@
 import CoreConcept from './components/CoreConcept/CoreConcept';
 import Header from './components/Header/Header';
-import { CORE_CONCEPTS } from './data';
 import Menu from './components/Menu/Menu';
+import { CORE_CONCEPTS } from './data';
 import './styles.css';
 
 function App() {
@@ -13,12 +13,7 @@ function App() {
                     <h2>Core Concepts</h2>
                     <ul>
                         {CORE_CONCEPTS.map((concept) => (
-                            <CoreConcept
-                                title={concept.title}
-                                description={concept.description}
-                                image={concept.image}
-                                {...concept}
-                            />
+                            <CoreConcept {...concept} key={concept.title} />
                         ))}
                     </ul>
                 </section>
