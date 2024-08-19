@@ -15,7 +15,7 @@ function App() {
                         {CORE_CONCEPTS.map((concept) => (
                             <CoreConcept
                                 title={concept.title}
-                                desc={concept.desc}
+                                description={concept.description}
                                 image={concept.image}
                                 {...concept}
                             />
