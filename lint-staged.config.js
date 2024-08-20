@@ -1,0 +1,7 @@
+// export default {
+//     '**/*.(ts|tsx)': 'yarn tsc --noEmit',
+
+//     '**/*.(ts|tsx|js)': 'eslint --fix',
+
+//     '*': 'prettier --write',
+// };
